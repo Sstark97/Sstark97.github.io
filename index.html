@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Aitor Santana Cabrera" />
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/index.css" />
     <title>Proyecto Cine</title>
 </head>
@@ -68,8 +71,103 @@
             <div>
                 <div class="section_title">
                     <p>Promociones</p>
-                    <button>VER MÄS</button>
+                    <button class="btn" id="red-btn">Ver más</button>
                 </div>
+
+                <div class="sections_img">
+                    <div class="img_container">
+                        <img src="./assets/static/promos/covid.jpg" alt="covid">
+                        <div class="hover_text red_promo">Cine Seguro</div>
+                    </div>
+                    <div class="img_container">
+                        <img src="./assets/static/promos/harry_potter.jpg" alt="harry_potter_promo">
+                        <div class="hover_text red_promo">Ya a la Venta</div>
+                    </div>
+                    
+                    <div class="img_container">
+                        <img src="./assets/static/promos/matinal.jpg" alt="promo_matinal">
+                        <div class="hover_text red_promo">Matinales</div>
+                    </div>
+                </div>
+
+                <div class="section_title">
+                    <p>Cartelera de Películas</p>
+                    <button class="btn" id="blue-btn">Ver más</button>
+                </div>
+
+                <div class="sections_img">
+                    <div class="img_container">
+                        <img src="./assets/static/cartelera/hero_academia.jpg" alt="Boku No Hero">
+                        <div class="hover_text blue_cartelera hover-flex">
+                            <span class="blue_cartelera">My Hero Academia: Misión Mundial de Héroes</span>
+                            <span class="blue_cartelera">Estreno: 12/11/2021</span>
+                        </div>
+                    </div>
+
+                    <div class="img_container">
+                        <img src="./assets/static/cartelera/dune.jpg" alt="Dune">
+                        <div class="hover_text blue_cartelera hover-flex">
+                            <span class="blue_cartelera">Dune</span>
+                            <span class="blue_cartelera">Estreno: 17/09/2021</span>
+                        </div>
+                    </div>
+                    
+                    <div class="img_container">
+                        <img src="./assets/static/cartelera/kingsman.jpg" alt="kingsman">
+                        <div class="hover_text blue_cartelera hover-flex">
+                            <span class="blue_cartelera">The King's Man: La primera misión</span>
+                            <span class="blue_cartelera">Estreno: 29/12/2021</span>
+                        </div>
+                    </div>
+
+                    <div class="img_container">
+                        <img src="./assets/static/cartelera/la_abuela.jpg" alt="La Abuela">
+                        <div class="hover_text blue_cartelera hover-flex">
+                            <span class="blue_cartelera">La abuela</span>
+                            <span class="blue_cartelera">Estreno: 28/01/2022</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="section_title">
+                    <p>Cartelera Vintage</p>
+                    <button class="btn vintage_cartelera">Ver más</button>
+                </div>
+
+                <div class="sections_img">
+                    <div class="img_container">
+                        <img src="./assets/static/vintage/el_padrino.jpg" alt="El Padrino">
+                        <div class="hover_text vintage_cartelera hover-flex">
+                            <span class="vintage_cartelera">El Padrino</span>
+                        </div>
+                    </div>
+
+                    <div class="img_container">
+                        <img src="./assets/static/vintage/rocky.jpg" alt="Rocky">
+                        <div class="hover_text vintage_cartelera hover-flex">
+                            <span class="vintage_cartelera">Rocky</span>
+                        </div>
+                    </div>
+                    
+                    <div class="img_container">
+                        <img src="./assets/static/vintage/terminator-2.jpg" alt="Terminator II">
+                        <div class="hover_text vintage_cartelera hover-flex">
+                            <span class="vintage_cartelera">Terminator 2</span>
+                            <span class="vintage_cartelera">El Jucio Final</span>
+                        </div>
+                    </div>
+
+                    <div class="img_container">
+                        <img src="./assets/static/vintage/alien.jpg" alt="Alien">
+                        <div class="hover_text vintage_cartelera hover-flex">
+                            <span class="vintage_cartelera">Alien</span>
+                            <span class="vintage_cartelera">El Octavo Pasajero</span>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
 
         </main>
