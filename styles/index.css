@@ -90,10 +90,14 @@ nav ul li:hover {
   left: -0.7rem;
   top: 2.5rem;
   z-index: 3;
-  padding: 2rem 5rem 2rem 5rem;
+  padding: 2rem 5.5rem 2rem 5.5rem;
   background: #fff;
   opacity: 0;
   transition: 0.3s;
+}
+
+#p-3 {
+  padding: 3rem 5.5rem 3rem 5.5rem;
 }
 
 .hidden li {
@@ -147,4 +151,9 @@ footer {
   margin-left: 0;
   margin-right: 0.8rem;
   padding-top: 1.5rem;
+}
+
+#apple_img {
+  width: 135px; 
+  height: 46px;
 }
