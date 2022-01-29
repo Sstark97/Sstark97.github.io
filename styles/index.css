@@ -1,3 +1,5 @@
+/*Estilos generales*/
+
 /* Formateamos los estilos del Navegador */
 * {
   margin: 0;
@@ -7,9 +9,37 @@
   font-family: "Lato", sans-serif;
 }
 
-html, body {
+html,
+body {
   width: 100%;
 }
+
+a {
+  text-decoration: none;
+}
+
+/*Botones*/
+.btn {
+  padding: 0.5rem;
+  border: none;
+  box-shadow: 0 3px 5px 0 rgb(0 0 0 / 52%);
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+#red-btn {
+  background: red;
+}
+
+#blue-btn {
+  background: #0076ec;
+}
+
+/*--------------------------------------*/
 
 /* Estilos del Layout Principal */
 #container {
@@ -64,10 +94,12 @@ nav ul li {
   color: #fff;
 }
 
+/* Estilos del menú deslegable*/
 .drop-down {
   position: relative;
 }
 
+/* Estilos para mostrar el menú oculto*/
 .drop-down:hover .hidden {
   opacity: 1;
   transition: 0.3s;
@@ -77,6 +109,7 @@ nav ul li {
   background: #000;
 }
 
+/* Estilos menú oculto*/
 .hidden {
   position: absolute;
   display: flex;
@@ -100,6 +133,8 @@ nav ul li {
 }
 
 /* ------------------------------------*/
+
+/* Estilos del Slider */
 
 #slider_container {
   grid-area: slider;
@@ -151,11 +186,11 @@ li {
 }
 
 #slider_container > ul.slider li:first-child {
-  opacity: 1; /*Mostramos el primer <li>*/
+  opacity: 1;
 }
 
 #slider_container > ul.slider li:target {
-  opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  opacity: 1;
 }
 
 #slider_container > #slide_menu {
@@ -179,7 +214,9 @@ li {
   font-size: 20px;
   border-radius: 100%;
 }
+
 /* ------------------------------------*/
+
 /* Estilos del Main */
 main {
   grid-area: main;
@@ -211,7 +248,8 @@ main {
   position: relative;
 }
 
-.hover_text {
+/* Estilos del texto de Información Oculta*/
+.hidden_text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -227,7 +265,7 @@ main {
   transition: 0.8s;
 }
 
-.hover-flex {
+.hidden-flex {
   height: 30%;
 }
 
@@ -235,7 +273,7 @@ main {
   cursor: pointer;
 }
 
-.img_container:hover .hover_text {
+.img_container:hover .hidden_text {
   cursor: pointer;
   opacity: 1;
   transition: 0.8s;
@@ -291,26 +329,3 @@ footer {
   padding-top: 1.5rem;
 }
 
-/*-------------------------------------------------------*/
-/*Estilos generales*/
-
-/*Botones*/
-.btn {
-  padding: 0.5rem;
-  border: none;
-  box-shadow: 0 3px 5px 0 rgb(0 0 0 / 52%);
-  font-size: 0.9rem;
-  color: #fff;
-}
-
-.btn:hover {
-  cursor: pointer;
-}
-
-#red-btn {
-  background: red;
-}
-
-#blue-btn {
-  background: #0076ec;
-}
