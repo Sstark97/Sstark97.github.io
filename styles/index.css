@@ -129,7 +129,7 @@ nav ul {
   border-radius: 100%;
 }
 /* ------------------------------------*/
-
+/* Estilos del Main */
 main {
   grid-area: main;
   background: #f0f0f0;
@@ -138,6 +138,7 @@ main {
 .section_title {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
   margin-top: 2rem;
@@ -160,7 +161,10 @@ main {
 }
 
 .hover_text {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   position: absolute;
   color: #fff;
   height: 50%;
@@ -168,10 +172,11 @@ main {
   bottom: 0.2rem;
   padding-left: 1rem;
   font-weight: bold;
+  opacity: 0;
+  transition: .8s;
 }
 
 .hover-flex {
-  display: none;
   height: 30%;
 }
 
@@ -180,16 +185,9 @@ main {
 }
 
 .img_container:hover .hover_text {
-  display: flex;
-  align-items: center;
-}
-
-.img_container:hover .hover-flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
   cursor: pointer;
+  opacity: 1;
+  transition: .8s;
 }
 
 .red_promo {
@@ -201,7 +199,7 @@ main {
 }
 
 .vintage_cartelera {
-  background: rgb(156, 149, 149)
+  background: rgb(156, 149, 149);
 }
 
 /* ------------------------------------*/
@@ -227,6 +225,8 @@ footer {
 
 .f-son p {
   font-size: 0.8rem;
+  padding: 0.25rem;
+  
 }
 
 /* Estilos del Contenedor de Redes Sociales */
@@ -241,6 +241,7 @@ footer {
   padding-top: 1.5rem;
 }
 
+/*-------------------------------------------------------*/
 /*Estilos generales*/
 
 /*Botones*/
