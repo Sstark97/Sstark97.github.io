@@ -18,11 +18,15 @@
     />
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="./styles/main_page.css">
-    <title>Proyecto Cine</title>
+    <title>Cine Premium</title>
   </head>
 
   <body>
+
+    <!-- Contenedor Principal-->
     <div id="container">
+
+      <!-- Header -->
       <header>
         <nav>
           <ul>
@@ -75,6 +79,7 @@
         </nav>
       </header>
 
+      <!-- Slider -->
       <div id="slider_container">
         <ul class="slider">
           <li id="slide_1">
@@ -113,161 +118,167 @@
         </ul>
       </div>
 
+      <!-- Contenido Principal-->
       <main>
-        <div>
-          <div class="section_title">
-            <p>Promociones</p>
-            <a href="" class="btn" id="red-btn">Ver más</a>
-          </div>
 
-          <div class="sections_img">
-
-            <a href="">
-              <div class="img_container">
-                <img src="./assets/static/promos/covid.jpg" alt="covid" />
-                <div class="hidden_text red_promo">Cine Seguro</div>
-              </div>
-            </a>
-
-            <a href="">
-              <div class="img_container">
-                <img
-                  src="./assets/static/promos/harry_potter.jpg"
-                  alt="harry_potter_promo"
-                />
-                <div class="hidden_text red_promo">Ya a la Venta</div>
-              </div>
-            </a>
-            
-            <a href="">
-              <div class="img_container">
-                <img
-                  src="./assets/static/promos/matinal.jpg"
-                  alt="promo_matinal"
-                />
-                <div class="hidden_text red_promo">Matinales</div>
-              </div>
-            </a>
-
-          </div>
-
-          <div class="section_title">
-            <p>Cartelera de Películas</p>
-            <a href="" class="btn" id="blue-btn">Ver más</a>
-          </div>
-
-          <div class="sections_img">
-
-            <a href="">
-              <div class="img_container">
-                <img
-                  src="./assets/static/cartelera/hero_academia.jpg"
-                  alt="Boku No Hero"
-                />
-                <div class="hidden_text blue_cartelera hidden-flex">
-                  <span class="blue_cartelera"
-                    >My Hero Academia: Misión Mundial de Héroes</span
-                  >
-                  <span class="blue_cartelera">Estreno: 12/11/2021</span>
-                </div>
-              </div>
-            </a>
-
-            <a href="">
-              <div class="img_container">
-                <img src="./assets/static/cartelera/dune.jpg" alt="Dune" />
-                <div class="hidden_text blue_cartelera hidden-flex">
-                  <span class="blue_cartelera">Dune</span>
-                  <span class="blue_cartelera">Estreno: 17/09/2021</span>
-                </div>
-              </div>
-            </a>
-
-            <a href="">
-              <div class="img_container">
-                <img
-                  src="./assets/static/cartelera/kingsman.jpg"
-                  alt="kingsman"
-                />
-                <div class="hidden_text blue_cartelera hidden-flex">
-                  <span class="blue_cartelera"
-                    >The King's Man: La primera misión</span
-                  >
-                  <span class="blue_cartelera">Estreno: 29/12/2021</span>
-                </div>
-              </div>
-            </a>
-
-            <a href="">
-              <div class="img_container">
-                <img
-                  src="./assets/static/cartelera/la_abuela.jpg"
-                  alt="La Abuela"
-                />
-                <div class="hidden_text blue_cartelera hidden-flex">
-                  <span class="blue_cartelera">La abuela</span>
-                  <span class="blue_cartelera">Estreno: 28/01/2022</span>
-                </div>
-              </div>
-            </a>
-
-          </div>
-
-          <div class="section_title">
-            <p>Cartelera Vintage</p>
-            <a href="" class="btn vintage_cartelera">Ver más</a>
-          </div>
-
-            <a href="">
-              <div class="sections_img">
-
-                <div class="img_container">
-                  <img
-                    src="./assets/static/vintage/el_padrino.jpg"
-                    alt="El Padrino"
-                  />
-                  <div class="hidden_text vintage_cartelera hidden-flex">
-                    <span class="vintage_cartelera">El Padrino</span>
-                  </div>
-                </div>
-            </a>
-
-            <a href="">
-              <div class="img_container">
-                <img src="./assets/static/vintage/rocky.jpg" alt="Rocky" />
-                <div class="hidden_text vintage_cartelera hidden-flex">
-                  <span class="vintage_cartelera">Rocky</span>
-                </div>
-              </div>
-            </a>
-            
-            <a href="">
-              <div class="img_container">
-                <img
-                  src="./assets/static/vintage/terminator-2.jpg"
-                  alt="Terminator II"
-                />
-                <div class="hidden_text vintage_cartelera hidden-flex">
-                  <span class="vintage_cartelera">Terminator 2</span>
-                  <span class="vintage_cartelera">El Jucio Final</span>
-                </div>
-              </div>
-            </a>
-
-            <a href="">
-              <div class="img_container">
-                <img src="./assets/static/vintage/alien.jpg" alt="Alien" />
-                <div class="hidden_text vintage_cartelera hidden-flex">
-                  <span class="vintage_cartelera">Alien</span>
-                  <span class="vintage_cartelera">El Octavo Pasajero</span>
-                </div>
-              </div>
-            </a>
-
-          </div>
+        <!-- Título de la Secciçon de Promociones-->
+        <div class="section_title">
+          <p>Promociones</p>
+          <a href="" class="btn" id="red-btn">Ver más</a>
         </div>
+
+        <!-- Contenedor de las Imágenes de Promociones-->
+        <div class="sections_img">
+
+          <a href="">
+            <div class="img_container">
+              <img src="./assets/static/promos/covid.jpg" alt="covid" />
+              <div class="hidden_text red_promo">Cine Seguro</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="img_container">
+              <img
+                src="./assets/static/promos/harry_potter.jpg"
+                alt="harry_potter_promo"
+              />
+              <div class="hidden_text red_promo">Ya a la Venta</div>
+            </div>
+          </a>
+          
+          <a href="">
+            <div class="img_container">
+              <img
+                src="./assets/static/promos/matinal.jpg"
+                alt="promo_matinal"
+              />
+              <div class="hidden_text red_promo">Matinales</div>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- Título de la Secciçon de Cartelera-->
+        <div class="section_title">
+          <p>Cartelera de Películas</p>
+          <a href="" class="btn" id="blue-btn">Ver más</a>
+        </div>
+
+        <!-- Contenedor de las Imágenes de Cartelera-->
+        <div class="sections_img">
+
+          <a href="">
+            <div class="img_container">
+              <img
+                src="./assets/static/cartelera/hero_academia.jpg"
+                alt="Boku No Hero"
+              />
+              <div class="hidden_text blue_cartelera hidden-flex">
+                <span class="blue_cartelera"
+                  >My Hero Academia: Misión Mundial de Héroes</span
+                >
+                <span class="blue_cartelera">Estreno: 12/11/2021</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="img_container">
+              <img src="./assets/static/cartelera/dune.jpg" alt="Dune" />
+              <div class="hidden_text blue_cartelera hidden-flex">
+                <span class="blue_cartelera">Dune</span>
+                <span class="blue_cartelera">Estreno: 17/09/2021</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="img_container">
+              <img
+                src="./assets/static/cartelera/kingsman.jpg"
+                alt="kingsman"
+              />
+              <div class="hidden_text blue_cartelera hidden-flex">
+                <span class="blue_cartelera"
+                  >The King's Man: La primera misión</span
+                >
+                <span class="blue_cartelera">Estreno: 29/12/2021</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="img_container">
+              <img
+                src="./assets/static/cartelera/la_abuela.jpg"
+                alt="La Abuela"
+              />
+              <div class="hidden_text blue_cartelera hidden-flex">
+                <span class="blue_cartelera">La abuela</span>
+                <span class="blue_cartelera">Estreno: 28/01/2022</span>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- Título de la Secciçon de Cartelera Vintage-->
+        <div class="section_title">
+          <p>Cartelera Vintage</p>
+          <a href="" class="btn vintage_cartelera">Ver más</a>
+        </div>
+
+        <!-- Contenedor de las Imágenes de Cartelera Vintage-->
+        <div class="sections_img">
+          <a href="">
+            <div class="img_container">
+              <img
+                src="./assets/static/vintage/el_padrino.jpg"
+                alt="El Padrino"
+              />
+              <div class="hidden_text vintage_cartelera hidden-flex">
+                <span class="vintage_cartelera">El Padrino</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="img_container">
+              <img src="./assets/static/vintage/rocky.jpg" alt="Rocky" />
+              <div class="hidden_text vintage_cartelera hidden-flex">
+                <span class="vintage_cartelera">Rocky</span>
+              </div>
+            </div>
+          </a>
+          
+          <a href="">
+            <div class="img_container">
+              <img
+                src="./assets/static/vintage/terminator-2.jpg"
+                alt="Terminator II"
+              />
+              <div class="hidden_text vintage_cartelera hidden-flex">
+                <span class="vintage_cartelera">Terminator 2</span>
+                <span class="vintage_cartelera">El Jucio Final</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="img_container">
+              <img src="./assets/static/vintage/alien.jpg" alt="Alien" />
+              <div class="hidden_text vintage_cartelera hidden-flex">
+                <span class="vintage_cartelera">Alien</span>
+                <span class="vintage_cartelera">El Octavo Pasajero</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
       </main>
 
+      <!-- Footer -->
       <footer>
         <div class="f-son">
           <h2>Cine Premium</h2>
@@ -302,6 +313,7 @@
             alt=""
           />
 
+          <!-- Iconos de las Redes Sociales-->
           <div class="footer-media">
             <div class="media">
               <a href=""><i class="bx bxl-facebook"></i></a>
