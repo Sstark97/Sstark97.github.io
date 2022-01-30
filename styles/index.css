@@ -12,6 +12,7 @@
 html,
 body {
   width: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -120,10 +121,104 @@ main {
 /* Estilos del Footer */
 footer {
   grid-area: footer;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 15% 15% 45% 25%;
+  grid-template-rows: 8rem 8rem;
+  grid-template-areas:
+    "info finance newsletter direction"
+    "info finance newsletter direction";
+  column-gap: 2rem;
+  color: #fff;
+  background: #000;
   border-top: 0.1px solid rgba(0, 0, 0, 0.2);
+}
+
+#info {
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 0.96rem;
+}
+
+#info ul li {
+  margin-bottom: 0.3rem;
+}
+
+#social-li {
+  margin-top: 2rem;
+}
+
+#social-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0.5rem;
+}
+
+i {
+  font-size: 2rem;
+}
+
+.hover-footer:hover {
+  cursor: pointer;
+  color: #0076ec;
+}
+
+#finance {
+  grid-area: finance;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  font-size: 0.96rem;
+}
+
+#finance img {
+  width: 9rem;
+}
+
+#newsletter {
+  grid-area: newsletter;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.8rem;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+form input {
+  width: 40%;
+  padding: 0.5rem;
+  border: none;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+
+#direction {
+  grid-area: direction;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#cine-direction {
+  margin-top: 1rem;
+}
+
+#cine-name{
+  font-weight: bold;
+}
+
+#direction ul li {
+  margin-bottom: 0.3rem;
+}
+
+.footer_colors {
+  background: #000;
+  color: #fff;
 }
 
 .f-son {
@@ -150,10 +245,10 @@ footer {
 .media a {
   margin-left: 0;
   margin-right: 0.8rem;
-  padding-top: 1.5rem;
+  padding-top: 5rem;
 }
 
 #apple_img {
-  width: 135px; 
+  width: 135px;
   height: 46px;
 }
