@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Aitor Santana Cabrera" />
+    <link href="../../assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles/index.css" />
+    <link rel="stylesheet" href="../../styles/films.css">
+    <title>Cine Premium</title>
+</head>
+
+<body>
+
+    <!-- Contenedor Principal-->
+    <div id="container">
+
+        <!-- Header -->
+        <header>
+            <nav>
+                <ul>
+                    <li>Salas</li>
+                    <li class="drop-down">
+
+                        <span>Cartelera</span>
+                        <ul class="hidden">
+                            <li>
+                                <a href="">Toda la programación</a>
+                            </li>
+                            <li>
+                                <a href="">Próximamente</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li class="drop-down">
+
+                        <span>Cartelera Vintage</span>
+                        <ul class="hidden">
+                            <li>
+                                <a>Lo mejor de los 80
+                            </li><a>
+                    </li>
+                    <li>
+                        <a>Lo mejor de los 90</a>
+                    </li>
+                </ul>
+
+                </li>
+                <li>Cartelera Infantil</li>
+                <li class="drop-down">
+
+                    <span>Eventos</span>
+                    <ul id="p-3" class="hidden">
+                        <li>
+                            <a>Cine + Food</a>
+                        </li>
+                        <li>
+                            <a>Eventos de Empresa</a>
+                        </li>
+                        <li>
+                            <a>Conciertos</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>Noticias</li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Contenido Principal -->
+        <main>
+            <div id="film_container">
+
+                <!-- Navbar entre Películas -->
+                <div id="navbar" class="films_colors bg-films">
+                    <h3 class="bg-films">El Padrino</h3>
+                    <a id="next-film" href="./rocky.html">
+                        <span>Rocky</span>
+                        <i class='bx bx-chevron-right'></i>
+                    </a>
+                </div>
+
+                <!-- Contenedor con la Imagen y Tráiler de la Película -->
+                <div id="media" class="films_colors bg-films">
+                    <img src="../../assets/static/vintage/el_padrino.jpg" alt="El Padrino">
+                    <iframe width="500" height="280" src="https://www.youtube.com/embed/v72XprPxy3E"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <!-- Contenedor de los detalles de las Películas -->
+                <div id="film_caracters" class="films_colors bg-films">
+                    <ul class="bg-films">
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Clasificación:</span>
+                            <span class="film_caracters-text bg-films">PENDIENTE DE CALIFICACION</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Duración:</span>
+                            <span class="film_caracters-text bg-films">175 min</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">País:</span>
+                            <span class="film_caracters-text bg-films">Japón</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Género:</span>
+                            <span class="film_caracters-text bg-films">Crimen - Drama</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Estreno:</span>
+                            <span class="film_caracters-text bg-films">20/10/1972</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Directores:</span>
+                            <span class="film_caracters-text bg-films">Francis Ford Coppola</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Guionistas:</span>
+                            <span class="film_caracters-text bg-films"> Francis Ford Coppola, Mario Puzo</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Productores:</span>
+                            <span class="film_caracters-text bg-films">Albert S. Ruddy</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Actores:</span>
+                            <span class="film_caracters-text bg-films">Marlon Brando, Al Pacino, James Caan, Robert
+                                Duvall, Diane Keaton, Sterling Hayden, Richard S.Castellano, John Cazale
+                            </span>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- Contenedor de la Sinopsis -->
+                <div id="sinopsis" class="films_colors bg-films">
+                    <p class="bg-films">Sinopsis: El padrino es una película estadounidense de 1972 dirigida por Francis
+                        Ford Coppola. La película fue producida por Albert S. Ruddy, de la compañía Paramount Pictures.
+                        Está basada en la novela homónima, de Mario Puzo, quien adaptó el guion junto a Coppola y Robert
+                        Towne, este último sin ser acreditado
+                    </p>
+                </div>
+
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+
+            <div id="info" class="footer_colors">
+                <ul class="footer_colors">
+                    <li class="footer_colors hover-footer">Trabaja con nosotros</li>
+                    <li class="footer_colors hover-footer">Contacta</li>
+                    <li class="footer_colors hover-footer">Protocolo Covid</li>
+                    <li class="footer_colors" id="social-li">
+                        <span class="footer_colors">Siguenos</span>
+
+                        <ul id="social-container" class="footer_colors">
+                            <li class="footer_colors"><a class="footer_colors" href=""><i
+                                        class="bx bxl-facebook footer_colors hover-footer"></i></a></li>
+                            <li class="footer_colors"><a class="footer_colors" href=""><i
+                                        class="bx bxl-twitter footer_colors hover-footer"></i></a></li>
+                            <li class="footer_colors"><a class="footer_colors" href=""><i
+                                        class="bx bxl-instagram footer_colors hover-footer"></i></a></li>
+                            <li class="footer_colors"><a class="footer_colors" href=""><i
+                                        class="bx bxl-snapchat footer_colors hover-footer"></i></a></li>
+                            <li class="footer_colors"><a class="footer_colors" href=""><i
+                                        class="bx bxl-youtube footer_colors hover-footer"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="finance" class="footer_colors">
+                <img class="footer_colors" src="../../assets/static/footer/eurocine.png" alt="eurocine">
+
+                <div class="footer_colors">
+                    <span class="footer_colors">Con la financiación de</span>
+                    <img class="footer_colors" src="../../assets/static/footer/logo-icaa-negro.png" alt="icaa">
+                </div>
+            </div>
+
+            <div class="footer_colors" id="newsletter">
+                <span class="footer_colors">Suscríbete a nuestra Newsletter y mantente al día de todos nuestros</span>
+                <span class="footer_colors">eventos y novedades.</span>
+
+                <form class="footer_colors" action="http://www.iesanaluisabenitez.org/" method="post">
+                    <input type="email" placeholder="Introduce tu correo para suscribirte" required
+                        name="newsletter-form" id="newsletter-form">
+                    <button type="submit" class="btn blue-btn" for="newsletter-form">Suscribeme</button>
+
+                </form>
+
+            </div>
+
+            <div id="direction" class="footer_colors">
+                <ul class="footer_colors">
+                    <li class="footer_colors hover-footer">Aviso Legal</li>
+                    <li class="footer_colors hover-footer">Politíca de Privacidad</li>
+                    <li class="footer_colors hover-footer">Politíca de Cookies</li>
+                </ul>
+
+                <ul class="footer_colors" id="cine-direction">
+                    <li class="footer_colors" id="cine-name">Cines Premium</li>
+                    <li class="footer_colors">El Nogal, 6</li>
+                    <li class="footer_colors">35329 San Mateo</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
