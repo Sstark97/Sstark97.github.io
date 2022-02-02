@@ -20,6 +20,10 @@ a {
   color: #000;
 }
 
+ul, li {
+  list-style: none;
+}
+
 /* ------------------------------------*/
 
 /* Estilos del Header y del Menú*/
@@ -175,7 +179,7 @@ i {
 }
 
 #finance img {
-  width: 9rem;
+  width: 50%;
 }
 
 #newsletter {
@@ -252,3 +256,24 @@ form input {
   width: 135px;
   height: 46px;
 }
+
+/*Botones*/
+.btn {
+  padding: 0.5rem;
+  border: none;
+  box-shadow: 0 3px 5px 0 rgb(0 0 0 / 52%);
+  font-size: 0.9rem;
+  color: #fff;
+  }
+  
+  .btn:hover {
+  cursor: pointer;
+  }
+  
+  #red-btn {
+  background: red;
+  }
+  
+  .blue-btn {
+  background: #0076ec;
+  }

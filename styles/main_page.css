@@ -165,23 +165,3 @@ background: #0076ec;
 background: rgb(156, 149, 149);
 }
 
-/*Botones*/
-.btn {
-padding: 0.5rem;
-border: none;
-box-shadow: 0 3px 5px 0 rgb(0 0 0 / 52%);
-font-size: 0.9rem;
-color: #fff;
-}
-
-.btn:hover {
-cursor: pointer;
-}
-
-#red-btn {
-background: red;
-}
-
-.blue-btn {
-background: #0076ec;
-}
