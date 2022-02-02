@@ -46,6 +46,18 @@
     position: relative;
 }
 
+#previous-film {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 5rem;
+}
+
+#previous-film a,span, i {
+    background: #fff;
+}
+
 #next-film {
     display: flex;
     align-items: center;
