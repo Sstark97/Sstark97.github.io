@@ -43,6 +43,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+#next-film {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 5rem;
+}
+
+#next-film a,span, i {
+    background: #fff;
 }
 
 #media {
