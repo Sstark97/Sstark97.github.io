@@ -51,7 +51,7 @@ nav ul:hover {
 nav ul {
   display: flex;
   justify-content: space-evenly;
-  align-self: flex-start;
+  align-items: center;
   list-style: none;
   position: absolute;
   width: 100%;
@@ -62,6 +62,13 @@ nav ul {
 nav ul li {
   background: #000;
   color: #fff;
+}
+
+#logo_cine {
+  width: 4rem;
+  background: #000;
+  color: #fff;
+  border: none;
 }
 
 /* Damos Opacidad a los li cuando pasamos el cursor por encima*/
@@ -221,7 +228,7 @@ form input {
   margin-bottom: 0.3rem;
 }
 
-.footer_colors {
+.general_colors {
   background: #000;
   color: #fff;
 }
