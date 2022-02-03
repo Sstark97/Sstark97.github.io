@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Aitor Santana Cabrera" />
+    <link href="../../assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles/index.css" />
+    <link rel="stylesheet" href="../../styles/films.css">
+    <title>Cine Premium</title>
+</head>
+
+<body>
+
+    <!-- Contenedor Principal-->
+    <div id="container">
+
+        <!-- Header -->
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="general_colors" href="../../index.html">
+                            <i class="bx bx-film general_colors"></i>
+                        </a>
+                    </li>
+                    <li>Salas</li>
+                    <li class="drop-down">
+
+                        <span>Cartelera</span>
+                        <ul class="hidden">
+                            <li>
+                                <a href="">Toda la programación</a>
+                            </li>
+                            <li>
+                                <a href="">Próximamente</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li class="drop-down">
+
+                        <span>Cartelera Vintage</span>
+                        <ul class="hidden">
+                            <li>
+                                <a>Lo mejor de los 80
+                            </li><a>
+                    </li>
+                    <li>
+                        <a>Lo mejor de los 90</a>
+                    </li>
+                </ul>
+
+                </li>
+                <li>Cartelera Infantil</li>
+                <li class="drop-down">
+
+                    <span>Eventos</span>
+                    <ul id="p-3" class="hidden">
+                        <li>
+                            <a>Cine + Food</a>
+                        </li>
+                        <li>
+                            <a>Eventos de Empresa</a>
+                        </li>
+                        <li>
+                            <a>Conciertos</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>Noticias</li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Contenido Principal -->
+        <main>
+            <div id="film_container">
+
+                <!-- Navbar entre Películas -->
+                <div id="navbar" class="films_colors bg-films">
+                    <a id="previous-film" href="./terminator.html">
+                        <i class='bx bx-chevron-left'></i>
+                        <span>Terminator II: El Jucio Final</span>
+                    </a>
+                    <h3 class="bg-films">Alien: El Octavo Pasajero</h3>
+                </div>
+
+                <!-- Contenedor con la Imagen y Tráiler de la Película -->
+                <div id="media" class="films_colors bg-films">
+                    <img src="../../assets/static/vintage/alien.jpg" alt="alien_films">
+                    <iframe src="https://www.youtube.com/embed/Eu9ZFTXXEiw" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <!-- Contenedor de los detalles de las Películas -->
+                <div id="film_caracters" class="films_colors bg-films">
+                    <ul class="bg-films">
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Duración:</span>
+                            <span class="film_caracters-text bg-films">117 min</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">País:</span>
+                            <span class="film_caracters-text bg-films">Estados Unidos</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Género:</span>
+                            <span class="film_caracters-text bg-films">ciencia Ficción - Terror</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Estreno:</span>
+                            <span class="film_caracters-text bg-films">25/09/1979</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Directores:</span>
+                            <span class="film_caracters-text bg-films">Ridley Scott</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Guionistas:</span>
+                            <span class="film_caracters-text bg-films">Dan O'Bannon</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Productores:</span>
+                            <span class="film_caracters-text bg-films">20th Century Fox, Brandywine Productions</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Actores:</span>
+                            <span class="film_caracters-text bg-films">Sigourney Weaver, Veronica Cartwright, Ian Holm,
+                                Yaphet Kotto, Tom Skerritt, Harry Dean Stanton, Bolaji Badejo
+                            </span>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- Contenedor de la Sinopsis -->
+                <div id="sinopsis" class="films_colors bg-films">
+                    <p class="bg-films">Sinopsis: De regreso a la Tierra, la nave de carga Nostromo interrumpe su viaje
+                        y despierta a sus siete tripulantes. El ordenador central, MADRE, ha detectado la misteriosa
+                        transmisión de una forma de vida desconocida, procedente de un planeta cercano aparentemente
+                        deshabitado. La nave se dirige entonces al extraño planeta para investigar el origen de la
+                        comunicación.
+                    </p>
+                </div>
+
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+
+            <div id="info" class="general_colors">
+                <ul class="general_colors">
+                    <li class="general_colors hover-footer">Trabaja con nosotros</li>
+                    <li class="general_colors hover-footer">Contacta</li>
+                    <li class="general_colors hover-footer">Protocolo Covid</li>
+                    <li class="general_colors" id="social-li">
+                        <span class="general_colors">Siguenos</span>
+
+                        <ul id="social-container" class="general_colors">
+                            <li class="general_colors"><a class="general_colors" href=""><i
+                                        class="bx bxl-facebook general_colors hover-footer"></i></a></li>
+                            <li class="general_colors"><a class="general_colors" href=""><i
+                                        class="bx bxl-twitter general_colors hover-footer"></i></a></li>
+                            <li class="general_colors"><a class="general_colors" href=""><i
+                                        class="bx bxl-instagram general_colors hover-footer"></i></a></li>
+                            <li class="general_colors"><a class="general_colors" href=""><i
+                                        class="bx bxl-snapchat general_colors hover-footer"></i></a></li>
+                            <li class="general_colors"><a class="general_colors" href=""><i
+                                        class="bx bxl-youtube general_colors hover-footer"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="finance" class="general_colors">
+                <img class="general_colors" src="../../assets/static/footer/eurocine.png" alt="eurocine">
+
+                <div class="general_colors">
+                    <span class="general_colors">Con la financiación de</span>
+                    <img class="general_colors" src="../../assets/static/footer/logo-icaa-negro.png" alt="icaa">
+                </div>
+            </div>
+
+            <div class="general_colors" id="newsletter">
+                <span class="general_colors">Suscríbete a nuestra Newsletter y mantente al día de todos nuestros</span>
+                <span class="general_colors">eventos y novedades.</span>
+
+                <form class="general_colors" action="http://www.iesanaluisabenitez.org/" method="post">
+                    <input type="email" placeholder="Introduce tu correo para suscribirte" required
+                        name="newsletter-form" id="newsletter-form">
+                    <button type="submit" class="btn blue-btn" for="newsletter-form">Suscribeme</button>
+
+                </form>
+
+            </div>
+
+            <div id="direction" class="general_colors">
+                <ul class="general_colors">
+                    <li class="general_colors hover-footer">Aviso Legal</li>
+                    <li class="general_colors hover-footer">Politíca de Privacidad</li>
+                    <li class="general_colors hover-footer">Politíca de Cookies</li>
+                </ul>
+
+                <ul class="general_colors" id="cine-direction">
+                    <li class="general_colors" id="cine-name">Cines Premium</li>
+                    <li class="general_colors">El Nogal, 6</li>
+                    <li class="general_colors">35329 San Mateo</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
