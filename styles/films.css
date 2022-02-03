@@ -12,6 +12,8 @@
     width: 100%;
 }
 
+/*---------------------------*/
+
 /* Estilos del Contenedor de la película*/
 #film_container {
     display: grid;
@@ -38,6 +40,9 @@
     background: #fff;
 }
 
+/* ------------------------------------*/
+
+/* Estilos de Navegador de Películas*/
 #navbar {
     grid-area: navbar;
     display: flex;
@@ -70,6 +75,10 @@
     background: #fff;
 }
 
+/*-------------------------*/
+
+/* Estilos del Contenedor con la Imagen y Tráiler de la Película */
+
 #media {
     grid-area: media;
 }
@@ -77,6 +86,13 @@
 #media img {
     margin-right: 1rem;
 }
+
+iframe {
+    width: 62%;
+    height: 280px;
+}
+
+/*-------------------------*/
 
 /* Estilos de la zona de Caracteristícas de la Película*/
 #film_caracters {
@@ -93,9 +109,4 @@
 
 #sinopsis {
     grid-area: sinopsis;
-}
-
-iframe {
-    width: 62%;
-    height: 280px;
 }

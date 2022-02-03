@@ -145,6 +145,9 @@ footer {
   border-top: 0.1px solid rgba(0, 0, 0, 0.2);
 }
 
+/*---------------------------------------------*/
+
+/* Estilos del Contenedor con la información del cine y sus redes sociales*/
 #info {
   grid-area: info;
   display: flex;
@@ -177,6 +180,9 @@ i {
   color: #0076ec;
 }
 
+/*---------------------------------------------*/
+
+/* Estilos del Contenedor con los fondos que financian al cine */
 #finance {
   grid-area: finance;
   display: flex;
@@ -190,6 +196,9 @@ i {
   width: 50%;
 }
 
+/*---------------------------------------------*/
+
+/* Estilos del Contenedor del formulario que lleva a la página del IES Ana Luisa Benítez*/
 #newsletter {
   grid-area: newsletter;
   display: flex;
@@ -233,38 +242,6 @@ form input {
   color: #fff;
 }
 
-.f-son {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.f-son h2 {
-  font-size: 1.2rem;
-}
-
-.f-son p {
-  font-size: 0.8rem;
-  padding: 0.25rem;
-}
-
-/* Estilos del Contenedor de Redes Sociales */
-.footer-media {
-  margin-top: 1.2rem;
-}
-
-/* Estilos de los a que llevan a las diferentes redes */
-.media a {
-  margin-left: 0;
-  margin-right: 0.8rem;
-  padding-top: 5rem;
-}
-
-#apple_img {
-  width: 135px;
-  height: 46px;
-}
-
 /*Botones*/
 .btn {
   padding: 0.5rem;
@@ -272,16 +249,16 @@ form input {
   box-shadow: 0 3px 5px 0 rgb(0 0 0 / 52%);
   font-size: 0.9rem;
   color: #fff;
-  }
+}
   
-  .btn:hover {
+.btn:hover {
   cursor: pointer;
-  }
+}
   
-  #red-btn {
+#red-btn {
   background: red;
-  }
-  
-  .blue-btn {
+}
+
+.blue-btn {
   background: #0076ec;
-  }
+}
