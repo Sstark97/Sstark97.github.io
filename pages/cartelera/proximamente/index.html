@@ -12,45 +12,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../../styles/index.css" />
-    <link rel="stylesheet" href="../../styles/films.css">
+    <link rel="stylesheet" href="../../styles/cartelera.css">
     <title>Cine Premium</title>
 </head>
 
 <body>
 
     <!-- Contenedor Principal-->
-    <div id="container">
+    <div id="container_small">
 
         <!-- Header -->
         <header>
             <nav>
               <ul>
                 <li>
-                    <a class="general_colors" href="../../index.html">
+                    <a class="general_colors" href="../../../index.html">
                     <i class="bx bx-film general_colors"></i>
                   </a>
                 </li>
                 <li class="drop-down">
                   
-                    <span><a href="../cartelera/index.html">Cartelera</a></span>
+                    <span><a href="../../cartelera/index.html">Cartelera</a></span>
                     <ul class="hidden">
                       <li>
                         <a href="../cartelera/index.html">Toda la programación</a>
                       </li>
                       <li>
-                        <a href="../cartelera/proximamente/index.html">Próximamente</a>
+                        <a href="./index.html">Próximamente</a>
                       </li>
                     </ul>
     
                 </li>
                 <li>
                     <span>
-                      <a href="../cartelera_vintage/index.html">Cartelera Vintage</a>
+                      <a href="../../cartelera_vintage/index.html">Cartelera Vintage</a>
                     </span>
                 </li>
                 <li>
                     <span>
-                      <a href="../cartelera_infantil/index.html">Cartelera Infantil</a>
+                      <a href="../../cartelera_infantil/index.html">Cartelera Infantil</a>
                     </span>
                 </li>
                 <li class="drop-down">
@@ -76,84 +76,67 @@
 
         <!-- Contenido Principal -->
         <main>
-            <div id="film_container">
+            <div id="cartelera">
+                <a href="../../films/el_padrino.html">
+                    <div class="film-card">
+                        <span class="film-title-padding">¡Canta 2!</span>
+                        <img src="../../../assets/static/films/canta2.jpg" alt="¡Canta 2!">
+                        <div class="stars">
+                            <i class='bx bxs-star star colored'></i>
+                            <i class='bx bxs-star star colored'></i>
+                            <i class='bx bxs-star star colored'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <span>(1539 votos)</span>
+                        </div>
+                    </div>
+                </a>
 
-                <!-- Navbar entre Películas -->
-                <div id="navbar" class="films_colors bg-films">
-                    <a id="previous-film" href="./terminator.html">
-                        <i class='bx bx-chevron-left'></i>
-                        <span>Terminator II: El Jucio Final</span>
-                    </a>
-                    <h3 class="bg-films">Alien: El Octavo Pasajero</h3>
-                </div>
+                <a href="../../films/rocky.html">
+                    <div class="film-card">
+                        <span class="film-title-padding">Clifford, el gran perro rojo</span>
+                        <img src="../../../assets/static/films/clifford.jpg" alt="Clifford, el gran perro rojo">
+                        <div class="stars">
+                            <i class='bx bxs-star star colored'></i>
+                            <i class='bx bxs-star star colored'></i>
+                            <i class='bx bxs-star star colored'></i>
+                            <i class='bx bxs-star star colored'></i>
+                            <i class='bx bxs-star star'></i>
+                            <span>(1213 votos)</span>
+                        </div>
+                    </div>
+                </a>
 
-                <!-- Contenedor con la Imagen y Tráiler de la Película -->
-                <div id="media" class="films_colors bg-films">
-                    <img src="../../assets/static/vintage/alien.jpg" alt="alien_films">
-                    <iframe src="https://www.youtube.com/embed/Eu9ZFTXXEiw" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
+                <a href="../../films/terminator.html">
+                    <div class="film-card">
+                        <span class="film-title-padding">Encanto</span>
+                        <img src="../../../assets/static/films/encanto.jpg" alt="Encanto">
+                        <div class="stars">
+                            <i class='bx bxs-star star colored'></i>
+                            <i class='bx bxs-star star colored'></i>
+                            <i class='bx bxs-star star colored'></i>
+                            <i class='bx bxs-star star colored'></i>
+                            <i class='bx bxs-star star colored'></i>
+                            <span>(342 votos)</span>
+                        </div>
+                    </div>
+                </a>
 
-                <!-- Contenedor de los detalles de las Películas -->
-                <div id="film_caracters" class="films_colors bg-films">
-                    <ul class="bg-films">
-
-                        <li class="bg-films">
-                            <span class="film_caracters-title bg-films">Duración:</span>
-                            <span class="film_caracters-text bg-films">117 min</span>
-                        </li>
-
-                        <li class="bg-films">
-                            <span class="film_caracters-title bg-films">País:</span>
-                            <span class="film_caracters-text bg-films">Estados Unidos</span>
-                        </li>
-
-                        <li class="bg-films">
-                            <span class="film_caracters-title bg-films">Género:</span>
-                            <span class="film_caracters-text bg-films">ciencia Ficción - Terror</span>
-                        </li>
-
-                        <li class="bg-films">
-                            <span class="film_caracters-title bg-films">Estreno:</span>
-                            <span class="film_caracters-text bg-films">25/09/1979</span>
-                        </li>
-
-                        <li class="bg-films">
-                            <span class="film_caracters-title bg-films">Directores:</span>
-                            <span class="film_caracters-text bg-films">Ridley Scott</span>
-                        </li>
-
-                        <li class="bg-films">
-                            <span class="film_caracters-title bg-films">Guionistas:</span>
-                            <span class="film_caracters-text bg-films">Dan O'Bannon</span>
-                        </li>
-
-                        <li class="bg-films">
-                            <span class="film_caracters-title bg-films">Productores:</span>
-                            <span class="film_caracters-text bg-films">20th Century Fox, Brandywine Productions</span>
-                        </li>
-
-                        <li class="bg-films">
-                            <span class="film_caracters-title bg-films">Actores:</span>
-                            <span class="film_caracters-text bg-films">Sigourney Weaver, Veronica Cartwright, Ian Holm,
-                                Yaphet Kotto, Tom Skerritt, Harry Dean Stanton, Bolaji Badejo
-                            </span>
-                        </li>
-                    </ul>
-
-                </div>
-
-                <!-- Contenedor de la Sinopsis -->
-                <div id="sinopsis" class="films_colors bg-films">
-                    <p class="bg-films">Sinopsis: De regreso a la Tierra, la nave de carga Nostromo interrumpe su viaje
-                        y despierta a sus siete tripulantes. El ordenador central, MADRE, ha detectado la misteriosa
-                        transmisión de una forma de vida desconocida, procedente de un planeta cercano aparentemente
-                        deshabitado. La nave se dirige entonces al extraño planeta para investigar el origen de la
-                        comunicación.
-                    </p>
-                </div>
-
+                <a href="../../films/alien.html">
+                    <div class="film-card">
+                        <span>La Patrulla Canina: La película</span>
+                        <img src="../../../assets/static/films/patrulla_canina.jpg" alt="La Patrulla Canina: La película">
+                        <div class="stars">
+                            <i class='bx bxs-star star colored'></i>
+                            <i class='bx bxs-star star colored'></i>
+                            <i class='bx bxs-star star colored'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <span>(456 votos)</span>
+                        </div>
+                    </div>
+                </a>
+            
             </div>
         </main>
 
@@ -185,11 +168,11 @@
             </div>
 
             <div id="finance" class="general_colors">
-                <img class="general_colors" src="../../assets/static/footer/eurocine.png" alt="eurocine">
+                <img class="general_colors" src="../../../assets/static/footer/eurocine.png" alt="eurocine">
 
                 <div class="general_colors">
                     <span class="general_colors">Con la financiación de</span>
-                    <img class="general_colors" src="../../assets/static/footer/logo-icaa-negro.png" alt="icaa">
+                    <img class="general_colors" src="../../../assets/static/footer/logo-icaa-negro.png" alt="icaa">
                 </div>
             </div>
 
