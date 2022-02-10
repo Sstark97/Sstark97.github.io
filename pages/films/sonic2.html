@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Aitor Santana Cabrera" />
+    <link href="../../assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles/index.css" />
+    <link rel="stylesheet" href="../../styles/films.css">
+    <title>Cine Premium</title>
+</head>
+
+<body>
+
+    <!-- Contenedor Principal-->
+    <div id="container">
+
+        <!-- Header -->
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="general_colors" href="../../index.html">
+                            <i class="bx bx-film general_colors"></i>
+                        </a>
+                    </li>
+                    <li class="drop-down">
+
+                        <span><a href="../cartelera/index.html">Cartelera</a></span>
+                        <ul class="hidden">
+                            <li>
+                                <a href="../cartelera/index.html">Toda la programación</a>
+                            </li>
+                            <li>
+                                <a href="../cartelera/proximamente/index.html">Próximamente</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <span>
+                            <a href="../cartelera_vintage/index.html">Cartelera Vintage</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <a href="../cartelera_infantil/index.html">Cartelera Infantil</a>
+                        </span>
+                    </li>
+                    <li class="drop-down">
+
+                        <span>Eventos</span>
+                        <ul id="p-3" class="hidden">
+                            <li>
+                                <a>Cine + Food</a>
+                            </li>
+                            <li>
+                                <a>Eventos de Empresa</a>
+                            </li>
+                            <li>
+                                <a>Conciertos</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>Noticias</li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Contenido Principal -->
+        <main>
+            <div id="film_container">
+
+                <!-- Navbar entre Películas -->
+                <div id="navbar" class="films_colors bg-films">
+                    <a id="previous-film" href="./morbius.html">
+                        <i class='bx bx-chevron-left'></i>
+                        <span>Morbius</span>
+                    </a>
+                    <h3 class="bg-films">Sonic 2</h3>
+                </div>
+
+                <!-- Contenedor con la Imagen y Tráiler de la Película -->
+                <div id="media" class="films_colors bg-films">
+                    <img src="../../assets/static/films/sonic2.jpg" alt="Sonic 2">
+                    <iframe src="https://www.youtube.com/embed/cF5uf8a2Xds" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <!-- Contenedor de los detalles de las Películas -->
+                <div id="film_caracters" class="films_colors bg-films">
+                    <ul class="bg-films">
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Duración:</span>
+                            <span class="film_caracters-text bg-films">88 min</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">País:</span>
+                            <span class="film_caracters-text bg-films">Estados Unidos</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Género:</span>
+                            <span class="film_caracters-text bg-films">Animación</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Estreno:</span>
+                            <span class="film_caracters-text bg-films">01/04/2022</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Directores:</span>
+                            <span class="film_caracters-text bg-films">Jeff Fowler</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Guionistas:</span>
+                            <span class="film_caracters-text bg-films">Patrick Casey, John Whittington, Josh
+                                Mille</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Productores:</span>
+                            <span class="film_caracters-text bg-films">Blur Studios, Sega, Original Film, Marza
+                                Animation Planet</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Actores:</span>
+                            <span class="film_caracters-text bg-films">Ben Schwartz, Colleen Oshaughnessey, Idris Elba,
+                                James Marsden, Jim Carrey, Tika Sumpter
+                            </span>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- Contenedor de la Sinopsis -->
+                <div id="sinopsis" class="films_colors bg-films">
+                    <p class="bg-films">Sinopsis: El erizo azul favorito de todo el mundo ha vuelto para pasar al
+                        siguiente nivel y correr una nueva aventura. Después de establecerse en Green Hills, Sonic se
+                        muere por demostrar que tiene madera de auténtico héroe. La prueba de fuego llega con el retorno
+                        del malvado Robotnik, en esta ocasión con un nuevo compinche, Knuckles, en busca de una
+                        esmeralda que tiene el poder de destruir civilizaciones.
+
+                        Sonic formará equipo con su propio compañero de fatigas, Tails, y juntos se lanzarán a una
+                        aventura que les llevará por todo el mundo en busca de la preciada piedra para evitar que caiga
+                        en manos equivocadas.
+                    </p>
+                </div>
+
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+
+            <div id="info" class="general_colors">
+                <ul class="general_colors">
+                    <li class="general_colors hover-footer">Trabaja con nosotros</li>
+                    <li class="general_colors hover-footer">Contacta</li>
+                    <li class="general_colors hover-footer">Protocolo Covid</li>
+                    <li class="general_colors" id="social-li">
+                        <span class="general_colors">Siguenos</span>
+
+                        <ul id="social-container" class="general_colors">
+                            <li class="general_colors"><a class="general_colors" href=""><i
+                                        class="bx bxl-facebook general_colors hover-footer"></i></a></li>
+                            <li class="general_colors"><a class="general_colors" href=""><i
+                                        class="bx bxl-twitter general_colors hover-footer"></i></a></li>
+                            <li class="general_colors"><a class="general_colors" href=""><i
+                                        class="bx bxl-instagram general_colors hover-footer"></i></a></li>
+                            <li class="general_colors"><a class="general_colors" href=""><i
+                                        class="bx bxl-snapchat general_colors hover-footer"></i></a></li>
+                            <li class="general_colors"><a class="general_colors" href=""><i
+                                        class="bx bxl-youtube general_colors hover-footer"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="finance" class="general_colors">
+                <img class="general_colors" src="../../assets/static/footer/eurocine.png" alt="eurocine">
+
+                <div class="general_colors">
+                    <span class="general_colors">Con la financiación de</span>
+                    <img class="general_colors" src="../../assets/static/footer/logo-icaa-negro.png" alt="icaa">
+                </div>
+            </div>
+
+            <div class="general_colors" id="newsletter">
+                <span class="general_colors">Suscríbete a nuestra Newsletter y mantente al día de todos nuestros</span>
+                <span class="general_colors">eventos y novedades.</span>
+
+                <form class="general_colors" action="http://www.iesanaluisabenitez.org/" method="post">
+                    <input type="email" placeholder="Introduce tu correo para suscribirte" required
+                        name="newsletter-form" id="newsletter-form">
+                    <button type="submit" class="btn blue-btn" for="newsletter-form">Suscribeme</button>
+
+                </form>
+
+            </div>
+
+            <div id="direction" class="general_colors">
+                <ul class="general_colors">
+                    <li class="general_colors hover-footer">Aviso Legal</li>
+                    <li class="general_colors hover-footer">Politíca de Privacidad</li>
+                    <li class="general_colors hover-footer">Politíca de Cookies</li>
+                </ul>
+
+                <ul class="general_colors" id="cine-direction">
+                    <li class="general_colors" id="cine-name">Cines Premium</li>
+                    <li class="general_colors">El Nogal, 6</li>
+                    <li class="general_colors">35329 San Mateo</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
