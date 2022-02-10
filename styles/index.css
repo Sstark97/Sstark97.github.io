@@ -71,6 +71,16 @@ nav ul li {
   border: none;
 }
 
+span a {
+  background: #000;
+  color: #fff;
+}
+
+span a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+}
+
 /* Damos Opacidad a los li cuando pasamos el cursor por encima*/
 nav ul li:hover {
   color: rgba(255, 255, 255, 0.5);

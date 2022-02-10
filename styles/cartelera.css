@@ -2,7 +2,7 @@
 #container {
     display: grid;
     grid-template-columns: 20% 30% 30% 20%;
-    grid-template-rows: 7rem 35rem 13rem;
+    grid-template-rows: 7rem 28rem 10rem;
     grid-template-areas:
         "header header header header"
         ". main main ."
@@ -15,20 +15,21 @@
 /*---------------------------*/
 
 main {
-    padding: 0 1rem 0 1rem;
+    padding: 1rem;
 }
 
-a {
-    margin: 1rem 1rem 0 0;
-    width: 230px;
-    height: 390px;
+#cartelera a {
+    margin: 1rem 1.5rem 1rem 0;
+    width: 20%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
 }
+
 /* Estilos del Contenedor de la película*/
 #cartelera {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    height: 90%;
     width: 100%;
     justify-content: center;
 }
@@ -37,20 +38,59 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem 0 2rem 0;
+    padding: 1rem 0.5rem 0 0.5rem;
     background: #fff;
+    margin-bottom: 1rem;
+}
+
+#cartelera a:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
 }
 
 .film-card img, span {
     width: 90%;
     text-align: center;
     margin-bottom: 1rem;
+    background: #fff;
+}
+
+.film-title-padding {
+    padding-bottom: 1rem;
 }
 
 .films_colors {
     padding: 1rem;
     border: 1px solid rgb(224, 221, 221);
     border-radius: 0.3rem;
+    background: #fff;
+}
+
+.stars {
+    display: flex;
+    width: 93%;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+}
+
+.stars span {
+    justify-self: flex-end;
+    background: #fff;
+    color: #9e9999;
+    margin: 0;
+    font-size: 70%;
+}
+
+.star {
+    background: #fff;
+    color: #9e999994;
+    font-size: 1.6rem;
+}
+
+.colored {
+    color: #FFCD3C;
 }
 
 .bg-films {
@@ -58,72 +98,3 @@ a {
 }
 
 /* ------------------------------------*/
-
-/* Estilos de Navegador de Películas*/
-#navbar {
-    grid-area: navbar;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-#previous-film {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 5rem;
-}
-
-#previous-film a,span, i {
-    background: #fff;
-}
-
-#next-film {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    right: 5rem;
-}
-
-#next-film a,span, i {
-    background: #fff;
-}
-
-/*-------------------------*/
-
-/* Estilos del Contenedor con la Imagen y Tráiler de la Película */
-
-#media {
-    grid-area: media;
-}
-
-#media img {
-    margin-right: 1rem;
-}
-
-iframe {
-    width: 62%;
-    height: 280px;
-}
-
-/*-------------------------*/
-
-/* Estilos de la zona de Caracteristícas de la Película*/
-#film_caracters {
-    grid-area: film_caracters;
-}
-
-.film_caracters-title {
-    font-weight: bold;
-}
-
-.film_caracters-text {
-    opacity: 0.5;
-}
-
-#sinopsis {
-    grid-area: sinopsis;
-}
