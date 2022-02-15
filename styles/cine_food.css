@@ -1,0 +1,83 @@
+/* Estilos del Layout Principal */
+#container {
+    display: grid;
+    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-areas:
+      "header header header header"
+      ". main main ."
+      ". main main ."
+      "footer footer footer footer";
+    column-gap: 1rem;
+    width: 100%;
+}
+  
+/*---------------------------*/
+  
+main {
+    padding: 1rem 1rem 3rem 1rem;
+}
+
+main img {
+    width: 100%;
+}
+
+#second-p {
+    margin-top: 1rem;
+}
+
+/*----------------------------------------*/
+/* Estilos del Contenedor de Noticias de Cine + Food*/
+.cf-news {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.3rem;
+    margin-top: 5.85rem;
+}
+
+.cf-news div {
+    width: 33.3%;
+}
+
+.cf-news img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/*Le damos un poco de sombreado a la imagen cuando se hace hover*/
+.cf-news img:hover {
+    filter: brightness(50%);
+    cursor: pointer;
+}
+
+/*Contenedor con la fecha de la noticia*/
+.cf-news-date {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: rgb(148, 148, 148);
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos del Icono del Reloj*/
+.cf-news-date i {
+    color: rgb(148, 148, 148);
+    font-size: 0.9rem;
+    margin-right: 0.3rem;
+}
+
+.cf-news-a {
+    font-size: 1.12rem;
+    font-weight: bold;
+    background: none;
+    padding: 1rem 0 1rem 0;
+    transition: 0.3s;
+}
+
+.cf-news-a:hover {
+    color: rgba(12, 12, 12, 0.75);
+    transition: 0.3s;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
