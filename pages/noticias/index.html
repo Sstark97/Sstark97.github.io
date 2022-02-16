@@ -1,427 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Aitor Santana Cabrera" />
-    <link href="../../assets/favicon.ico" rel="icon" type="image/x-icon" />
-    <link
-      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../../styles/index.css" />
-    <link rel="stylesheet" href="../../styles/noticias.css" />
-    <title>Cine Premium</title>
-  </head>
 
-  <body>
-    <!-- Contenedor Principal-->
-    <div id="container">
-      <!-- Header -->
-      <header>
-        <nav>
-          <ul>
-            <li>
-              <a class="general_colors" href="../../index.html">
-                <i class="bx bx-film general_colors"></i>
-              </a>
-            </li>
-            <li class="drop-down">
-              <span><a href="../cartelera/index.html">Cartelera</a></span>
-              <ul class="hidden">
-                <li>
-                  <a href="../cartelera/index.html">Toda la programación</a>
-                </li>
-                <li>
-                  <a href="../cartelera/proximamente/index.html"
-                    >Próximamente</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li>
-              <span>
-                <a href="../cartelera_vintage/index.html">Cartelera Vintage</a>
-              </span>
-            </li>
-            <li>
-              <span>
-                <a href="../cartelera_infantil/index.html"
-                  >Cartelera Infantil</a
-                >
-              </span>
-            </li>
-            <li class="drop-down">
-              <span>Eventos</span>
-              <ul id="p-3" class="hidden">
-                <li>
-                  <span>
-                    <a href="../eventos/cine_food.html">Cine + Food</a>
-                  </span>
-                </li>
-                <li>
-                  <a>Eventos de Empresa</a>
-                </li>
-                <li>
-                  <a>Conciertos</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <span>
-                <a href="../noticias/index.html"
-                  >Noticias</a
-                >
-              </span>
-            </li>
-          </ul>
-        </nav>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Aitor Santana Cabrera" />
+  <link href="../../assets/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../styles/index.css" />
+  <link rel="stylesheet" href="../../styles/noticias.css" />
+  <title>Cine Premium</title>
+</head>
 
-      <!-- Contenido Principal -->
-      <main>
-        <!-- Contenedor de las noticias más destacadas-->
-        <div id="news-header-container">
-          <!-- Contenedor de la noticias más importante-->
-          <div class="news-header" id="first">
-            <img
-              src="../../assets/static/noticias/noticia1.jpg"
-              alt="noticia1"
-            />
-            <div id="news-header-first">
-              <a
-                href="https://www.cinemascomics.com/nuevas-imagenes-de-las-4-peliculas-de-dc-comics-de-2022/"
-                class="a-colors"
-                >Nuevas imágenes de las 4 películas de DC Comics de...</a
-              >
-              <div id="news-date">
-                <i class="bx bx-time-five time"></i>
-                <span class="date">2022-02-11</span>
-                <span>12 comentarios</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="news-header" id="second">
-            <img
-              src="../../assets/static/noticias/noticia2.jpg"
-              alt="noticia2"
-            />
-            <a
-              href="https://www.cinemascomics.com/joey-king-ayuda-recibio-brad-pitt-david-leitch/"
-              class="header-news-a"
-              >Joey King revela la gran ayuda que recibió de Brad...</a
-            >
-          </div>
-
-          <div class="news-header" id="third">
-            <img
-              src="../../assets/static/noticias/noticia3.jpg"
-              alt="noticia3"
-            />
-            <a
-              href="https://www.cinemascomics.com/asi-reacciono-benedict-cumberbatch-a-su-nominacion-al-oscar/"
-              class="header-news-a"
-              >Así reacciono Benedict Cumberbatch a su nominación...</a
-            >
-          </div>
-
-          <div class="news-header" id="fourth">
-            <img
-              src="../../assets/static/noticias/noticia4.jpg"
-              alt="noticia4"
-            />
-            <a
-              href="https://www.cinemascomics.com/gal-gadot-provoca-nueva-pelicula-sea-censurada-2-paises/"
-              class="header-news-a"
-              >Gal Gadot provoca que su nueva película sea censurada...</a
-            >
-          </div>
-
-          <div class="news-header" id="five">
-            <img src="../../assets/static/noticias/noticia5.jpg" alt="5" />
-            <a
-              href="https://www.cinemascomics.com/top-gun-maverick-no-defraudara-a-los-fans/"
-              class="header-news-a"
-              >Top Gun: Maverick no defraudará a sus fans</a
-            >
-          </div>
-        </div>
-
-        <!-- Sección de Noticias-->
-        <!-- Primea Fila-->
-        <div class="news-row" id="first-row">
-          <div>
-            <a
-              href="https://www.cinemascomics.com/josh-brolin-critica-duramente-oscars-2022-dune/"
-              class="a-colors"
-            >
-              <img src="../../assets/static/noticias/noticia6.jpg" alt="" />
+<body>
+  <!-- Contenedor Principal-->
+  <div id="container">
+    <!-- Header -->
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a class="general_colors" href="../../index.html">
+              <i class="bx bx-film general_colors"></i>
             </a>
-            <h3>Josh Brolin critica duramente los Oscars 2022 por Dune</h3>
-            <div class="news-date-news">
+          </li>
+          <li class="drop-down">
+            <span><a href="../cartelera/index.html">Cartelera</a></span>
+            <ul class="hidden">
+              <li>
+                <a href="../cartelera/index.html">Toda la programación</a>
+              </li>
+              <li>
+                <a href="../cartelera/proximamente/index.html">Próximamente</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span>
+              <a href="../cartelera_vintage/index.html">Cartelera Vintage</a>
+            </span>
+          </li>
+          <li>
+            <span>
+              <a href="../cartelera_infantil/index.html">Cartelera Infantil</a>
+            </span>
+          </li>
+          <li class="drop-down">
+            <span>Eventos</span>
+            <ul id="p-3" class="hidden">
+              <li>
+                <span>
+                  <a href="../eventos/cine_food.html">Cine + Food</a>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <a href="../eventos/empresa.html">Empresas</a>
+                </span>
+              </li>
+              <li>
+                <a>Conciertos</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span>
+              <a href="../noticias/index.html">Noticias</a>
+            </span>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+      <!-- Contenedor de las noticias más destacadas-->
+      <div id="news-header-container">
+        <!-- Contenedor de la noticias más importante-->
+        <div class="news-header" id="first">
+          <img src="../../assets/static/noticias/noticia1.jpg" alt="noticia1" />
+          <div id="news-header-first">
+            <a href="https://www.cinemascomics.com/nuevas-imagenes-de-las-4-peliculas-de-dc-comics-de-2022/"
+              class="a-colors">Nuevas imágenes de las 4 películas de DC Comics de...</a>
+            <div id="news-date">
               <i class="bx bx-time-five time"></i>
-              <span>Por David Lorao</span>
               <span class="date">2022-02-11</span>
               <span>12 comentarios</span>
             </div>
-            <p>
-              Tras las nominaciones de los Oscars 2022, la polémica no se ha
-              hecho esperar. Josh...
-            </p>
-            <button class="btn black-btn">
-              <a
-                href="https://www.cinemascomics.com/josh-brolin-critica-duramente-oscars-2022-dune/"
-                class="a-colors"
-                >Leer más</a
-              >
-            </button>
-          </div>
-
-          <div>
-            <a
-              href="https://www.cinemascomics.com/capitana-marvel-2-mas-poderosa-carol-danvers/"
-              class="a-colors"
-            >
-              <img src="../../assets/static/noticias/noticia7.jpg" alt="" />
-            </a>
-            <h3>Capitana Marvel 2 hará más poderosa a Carol Danvers</h3>
-            <div class="news-date-news">
-              <i class="bx bx-time-five time"></i>
-              <span>Por David Lorao</span>
-              <span class="date">2022-02-11</span>
-              <span>12 comentarios</span>
-            </div>
-            <p>
-              Si Carol Danvers ya era superpoderosa, Capitana Marvel 2
-              directamente la va a convertir en...
-            </p>
-            <button class="btn black-btn">
-              <a
-                href="https://www.cinemascomics.com/capitana-marvel-2-mas-poderosa-carol-danvers/"
-                class="a-colors"
-                >Leer más</a
-              >
-            </button>
           </div>
         </div>
 
-        <!--Segunda Fila-->
-        <div class="news-row">
-          <div>
-            <a
-              href="https://www.cinemascomics.com/17-peliculas-de-marvel-nominadas-oscars/"
-            >
-              <img src="../../assets/static/noticias/noticia8.jpg" alt="" />
-            </a>
-            <h3>17 películas de Marvel que han sido nominadas a los ...</h3>
-            <div class="news-date-news">
-              <i class="bx bx-time-five time"></i>
-              <span>Por David Lorao</span>
-              <span class="date">2022-02-11</span>
-              <span>12 comentarios</span>
-            </div>
-            <p>
-              Tras las recientes nominaciones a los Oscars 2022, ¡repasamos las
-              17 películas de Marvel que...
-            </p>
-            <button class="btn black-btn">
-              <a
-                href="https://www.cinemascomics.com/17-peliculas-de-marvel-nominadas-oscars/"
-                class="a-colors"
-                >Leer más</a
-              >
-            </button>
+        <div class="news-header" id="second">
+          <img src="../../assets/static/noticias/noticia2.jpg" alt="noticia2" />
+          <a href="https://www.cinemascomics.com/joey-king-ayuda-recibio-brad-pitt-david-leitch/"
+            class="header-news-a">Joey King revela la gran ayuda que recibió de Brad...</a>
+        </div>
+
+        <div class="news-header" id="third">
+          <img src="../../assets/static/noticias/noticia3.jpg" alt="noticia3" />
+          <a href="https://www.cinemascomics.com/asi-reacciono-benedict-cumberbatch-a-su-nominacion-al-oscar/"
+            class="header-news-a">Así reacciono Benedict Cumberbatch a su nominación...</a>
+        </div>
+
+        <div class="news-header" id="fourth">
+          <img src="../../assets/static/noticias/noticia4.jpg" alt="noticia4" />
+          <a href="https://www.cinemascomics.com/gal-gadot-provoca-nueva-pelicula-sea-censurada-2-paises/"
+            class="header-news-a">Gal Gadot provoca que su nueva película sea censurada...</a>
+        </div>
+
+        <div class="news-header" id="five">
+          <img src="../../assets/static/noticias/noticia5.jpg" alt="5" />
+          <a href="https://www.cinemascomics.com/top-gun-maverick-no-defraudara-a-los-fans/" class="header-news-a">Top
+            Gun: Maverick no defraudará a sus fans</a>
+        </div>
+      </div>
+
+      <!-- Sección de Noticias-->
+      <!-- Primea Fila-->
+      <div class="news-row" id="first-row">
+        <div>
+          <a href="https://www.cinemascomics.com/josh-brolin-critica-duramente-oscars-2022-dune/" class="a-colors">
+            <img src="../../assets/static/noticias/noticia6.jpg" alt="" />
+          </a>
+          <h3>Josh Brolin critica duramente los Oscars 2022 por Dune</h3>
+          <div class="news-date-news">
+            <i class="bx bx-time-five time"></i>
+            <span>Por David Lorao</span>
+            <span class="date">2022-02-11</span>
+            <span>12 comentarios</span>
           </div>
+          <p>
+            Tras las nominaciones de los Oscars 2022, la polémica no se ha
+            hecho esperar. Josh...
+          </p>
+          <button class="btn black-btn">
+            <a href="https://www.cinemascomics.com/josh-brolin-critica-duramente-oscars-2022-dune/"
+              class="a-colors">Leer más</a>
+          </button>
+        </div>
 
-          <div>
-            <a
-              href="https://www.cinemascomics.com/tom-holland-no-creo-que-llegue-al-nivel-de-tom-cruise/"
-            >
-              <img src="../../assets/static/noticias/noticia9.jpg" alt="" />
-            </a>
-            <h3>Tom Holland: No creo que llegue al nivel de Tom Cruise</h3>
-            <div class="news-date-news">
-              <i class="bx bx-time-five time"></i>
-              <span>Por Cinesmascomics</span>
-              <span class="date">2022-02-11</span>
-              <span>12 comentarios</span>
-            </div>
-            <p>
-              Con el estreno en cines de Uncharted, Tom Holland y su director
-              Ruben Fleischer visitaron...
-            </p>
-            <button class="btn black-btn">
-              <a
-                href="https://www.cinemascomics.com/tom-holland-no-creo-que-llegue-al-nivel-de-tom-cruise/"
-                class="a-colors"
-                >Leer más</a
-              >
-            </button>
+        <div>
+          <a href="https://www.cinemascomics.com/capitana-marvel-2-mas-poderosa-carol-danvers/" class="a-colors">
+            <img src="../../assets/static/noticias/noticia7.jpg" alt="" />
+          </a>
+          <h3>Capitana Marvel 2 hará más poderosa a Carol Danvers</h3>
+          <div class="news-date-news">
+            <i class="bx bx-time-five time"></i>
+            <span>Por David Lorao</span>
+            <span class="date">2022-02-11</span>
+            <span>12 comentarios</span>
           </div>
+          <p>
+            Si Carol Danvers ya era superpoderosa, Capitana Marvel 2
+            directamente la va a convertir en...
+          </p>
+          <button class="btn black-btn">
+            <a href="https://www.cinemascomics.com/capitana-marvel-2-mas-poderosa-carol-danvers/" class="a-colors">Leer
+              más</a>
+          </button>
         </div>
+      </div>
 
-        <!-- Tercera Fila-->>
-        <div class="news-row">
-          <div>
-            <a
-              href="https://www.cinemascomics.com/jim-carrey-repetira-el-papel-de-un-loco-a-domicilio-1996/"
-            >
-              <img src="../../assets/static/noticias/noticia10.jpg" alt="" />
-            </a>
-            <h3>Jim Carrey repetirá el papel de Un loco a domicilio</h3>
-            <div class="news-date-news">
-              <i class="bx bx-time-five time"></i>
-              <span>Por David Larrad</span>
-              <span class="date">2022-02-11</span>
-              <span>12 comentarios</span>
-            </div>
-            <p>
-              El actor Jim Carrey será de nuevo "el chico del cable" de la
-              película del...
-            </p>
-            <button class="btn black-btn">
-              <a
-                href="https://www.cinemascomics.com/jim-carrey-repetira-el-papel-de-un-loco-a-domicilio-1996/"
-                class="a-colors"
-                >Leer más</a
-              >
-            </button>
+      <!--Segunda Fila-->
+      <div class="news-row">
+        <div>
+          <a href="https://www.cinemascomics.com/17-peliculas-de-marvel-nominadas-oscars/">
+            <img src="../../assets/static/noticias/noticia8.jpg" alt="" />
+          </a>
+          <h3>17 películas de Marvel que han sido nominadas a los ...</h3>
+          <div class="news-date-news">
+            <i class="bx bx-time-five time"></i>
+            <span>Por David Lorao</span>
+            <span class="date">2022-02-11</span>
+            <span>12 comentarios</span>
           </div>
+          <p>
+            Tras las recientes nominaciones a los Oscars 2022, ¡repasamos las
+            17 películas de Marvel que...
+          </p>
+          <button class="btn black-btn">
+            <a href="https://www.cinemascomics.com/17-peliculas-de-marvel-nominadas-oscars/" class="a-colors">Leer
+              más</a>
+          </button>
+        </div>
 
-          <div>
-            <a
-              href="https://www.cinemascomics.com/divertida-polemica-the-batman-embarazo/"
-              class="a-colors"
-            >
-              <img src="../../assets/static/noticias/noticia11.jpg" alt="" />
-            </a>
-            <h3>La divertida polémica entre The Batman y un embarazo</h3>
-            <div class="news-date-news">
-              <i class="bx bx-time-five time"></i>
-              <span>Por David Lorao</span>
-              <span class="date">2022-02-11</span>
-              <span>12 comentarios</span>
-            </div>
-            <p>
-              Sólo una película como The Batman podría relacionar los términos
-              "polémica" y "embarazo". ¡Atención a...
-            </p>
-            <button class="btn black-btn">
-              <a
-                href="https://www.cinemascomics.com/divertida-polemica-the-batman-embarazo/"
-                class="a-colors"
-                >Leer más</a
-              >
-            </button>
+        <div>
+          <a href="https://www.cinemascomics.com/tom-holland-no-creo-que-llegue-al-nivel-de-tom-cruise/">
+            <img src="../../assets/static/noticias/noticia9.jpg" alt="" />
+          </a>
+          <h3>Tom Holland: No creo que llegue al nivel de Tom Cruise</h3>
+          <div class="news-date-news">
+            <i class="bx bx-time-five time"></i>
+            <span>Por Cinesmascomics</span>
+            <span class="date">2022-02-11</span>
+            <span>12 comentarios</span>
           </div>
+          <p>
+            Con el estreno en cines de Uncharted, Tom Holland y su director
+            Ruben Fleischer visitaron...
+          </p>
+          <button class="btn black-btn">
+            <a href="https://www.cinemascomics.com/tom-holland-no-creo-que-llegue-al-nivel-de-tom-cruise/"
+              class="a-colors">Leer más</a>
+          </button>
         </div>
-      </main>
+      </div>
 
-      <!-- Footer -->
-      <footer>
-        <div id="info" class="general_colors">
-          <ul class="general_colors">
-            <li class="general_colors hover-footer">Trabaja con nosotros</li>
-            <li class="general_colors hover-footer">Contacta</li>
-            <li class="general_colors hover-footer">Protocolo Covid</li>
-            <li class="general_colors" id="social-li">
-              <span class="general_colors">Siguenos</span>
-
-              <ul id="social-container" class="general_colors">
-                <li class="general_colors">
-                  <a class="general_colors" href=""
-                    ><i class="bx bxl-facebook general_colors hover-footer"></i
-                  ></a>
-                </li>
-                <li class="general_colors">
-                  <a class="general_colors" href=""
-                    ><i class="bx bxl-twitter general_colors hover-footer"></i
-                  ></a>
-                </li>
-                <li class="general_colors">
-                  <a class="general_colors" href=""
-                    ><i class="bx bxl-instagram general_colors hover-footer"></i
-                  ></a>
-                </li>
-                <li class="general_colors">
-                  <a class="general_colors" href=""
-                    ><i class="bx bxl-snapchat general_colors hover-footer"></i
-                  ></a>
-                </li>
-                <li class="general_colors">
-                  <a class="general_colors" href=""
-                    ><i class="bx bxl-youtube general_colors hover-footer"></i
-                  ></a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-
-        <div id="finance" class="general_colors">
-          <img
-            class="general_colors"
-            src="../../assets/static/footer/eurocine.png"
-            alt="eurocine"
-          />
-
-          <div class="general_colors">
-            <span class="general_colors">Con la financiación de</span>
-            <img
-              class="general_colors"
-              src="../../assets/static/footer/logo-icaa-negro.png"
-              alt="icaa"
-            />
+      <!-- Tercera Fila-->>
+      <div class="news-row">
+        <div>
+          <a href="https://www.cinemascomics.com/jim-carrey-repetira-el-papel-de-un-loco-a-domicilio-1996/">
+            <img src="../../assets/static/noticias/noticia10.jpg" alt="" />
+          </a>
+          <h3>Jim Carrey repetirá el papel de Un loco a domicilio</h3>
+          <div class="news-date-news">
+            <i class="bx bx-time-five time"></i>
+            <span>Por David Larrad</span>
+            <span class="date">2022-02-11</span>
+            <span>12 comentarios</span>
           </div>
+          <p>
+            El actor Jim Carrey será de nuevo "el chico del cable" de la
+            película del...
+          </p>
+          <button class="btn black-btn">
+            <a href="https://www.cinemascomics.com/jim-carrey-repetira-el-papel-de-un-loco-a-domicilio-1996/"
+              class="a-colors">Leer más</a>
+          </button>
         </div>
 
-        <div class="general_colors" id="newsletter">
-          <span class="general_colors"
-            >Suscríbete a nuestra Newsletter y mantente al día de todos
-            nuestros</span
-          >
-          <span class="general_colors">eventos y novedades.</span>
-
-          <form
-            class="general_colors"
-            action="http://www.iesanaluisabenitez.org/"
-            method="post"
-          >
-            <input
-              type="email"
-              placeholder="Introduce tu correo para suscribirte"
-              required
-              name="newsletter-form"
-              id="newsletter-form"
-            />
-            <button type="submit" class="btn blue-btn" for="newsletter-form">
-              Suscribeme
-            </button>
-          </form>
+        <div>
+          <a href="https://www.cinemascomics.com/divertida-polemica-the-batman-embarazo/" class="a-colors">
+            <img src="../../assets/static/noticias/noticia11.jpg" alt="" />
+          </a>
+          <h3>La divertida polémica entre The Batman y un embarazo</h3>
+          <div class="news-date-news">
+            <i class="bx bx-time-five time"></i>
+            <span>Por David Lorao</span>
+            <span class="date">2022-02-11</span>
+            <span>12 comentarios</span>
+          </div>
+          <p>
+            Sólo una película como The Batman podría relacionar los términos
+            "polémica" y "embarazo". ¡Atención a...
+          </p>
+          <button class="btn black-btn">
+            <a href="https://www.cinemascomics.com/divertida-polemica-the-batman-embarazo/" class="a-colors">Leer
+              más</a>
+          </button>
         </div>
+      </div>
+    </main>
 
-        <div id="direction" class="general_colors">
-          <ul class="general_colors">
-            <li class="general_colors hover-footer">Aviso Legal</li>
-            <li class="general_colors hover-footer">Politíca de Privacidad</li>
-            <li class="general_colors hover-footer">Politíca de Cookies</li>
-          </ul>
+    <!-- Footer -->
+    <footer>
+      <div id="info" class="general_colors">
+        <ul class="general_colors">
+          <li class="general_colors hover-footer">Trabaja con nosotros</li>
+          <li class="general_colors hover-footer">Contacta</li>
+          <li class="general_colors hover-footer">Protocolo Covid</li>
+          <li class="general_colors" id="social-li">
+            <span class="general_colors">Siguenos</span>
 
-          <ul class="general_colors" id="cine-direction">
-            <li class="general_colors" id="cine-name">Cines Premium</li>
-            <li class="general_colors">El Nogal, 6</li>
-            <li class="general_colors">35329 San Mateo</li>
-          </ul>
+            <ul id="social-container" class="general_colors">
+              <li class="general_colors">
+                <a class="general_colors" href=""><i class="bx bxl-facebook general_colors hover-footer"></i></a>
+              </li>
+              <li class="general_colors">
+                <a class="general_colors" href=""><i class="bx bxl-twitter general_colors hover-footer"></i></a>
+              </li>
+              <li class="general_colors">
+                <a class="general_colors" href=""><i class="bx bxl-instagram general_colors hover-footer"></i></a>
+              </li>
+              <li class="general_colors">
+                <a class="general_colors" href=""><i class="bx bxl-snapchat general_colors hover-footer"></i></a>
+              </li>
+              <li class="general_colors">
+                <a class="general_colors" href=""><i class="bx bxl-youtube general_colors hover-footer"></i></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div id="finance" class="general_colors">
+        <img class="general_colors" src="../../assets/static/footer/eurocine.png" alt="eurocine" />
+
+        <div class="general_colors">
+          <span class="general_colors">Con la financiación de</span>
+          <img class="general_colors" src="../../assets/static/footer/logo-icaa-negro.png" alt="icaa" />
         </div>
-      </footer>
-    </div>
-  </body>
+      </div>
+
+      <div class="general_colors" id="newsletter">
+        <span class="general_colors">Suscríbete a nuestra Newsletter y mantente al día de todos
+          nuestros</span>
+        <span class="general_colors">eventos y novedades.</span>
+
+        <form class="general_colors" action="http://www.iesanaluisabenitez.org/" method="post">
+          <input type="email" placeholder="Introduce tu correo para suscribirte" required name="newsletter-form"
+            id="newsletter-form" />
+          <button type="submit" class="btn blue-btn" for="newsletter-form">
+            Suscribeme
+          </button>
+        </form>
+      </div>
+
+      <div id="direction" class="general_colors">
+        <ul class="general_colors">
+          <li class="general_colors hover-footer">Aviso Legal</li>
+          <li class="general_colors hover-footer">Politíca de Privacidad</li>
+          <li class="general_colors hover-footer">Politíca de Cookies</li>
+        </ul>
+
+        <ul class="general_colors" id="cine-direction">
+          <li class="general_colors" id="cine-name">Cines Premium</li>
+          <li class="general_colors">El Nogal, 6</li>
+          <li class="general_colors">35329 San Mateo</li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
