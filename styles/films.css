@@ -87,7 +87,7 @@
     margin-right: 1rem;
 }
 
-iframe {
+iframe, .event-poster {
     width: 62%;
     height: 280px;
 }

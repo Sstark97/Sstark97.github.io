@@ -12,14 +12,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../../../styles/index.css" />
-    <link rel="stylesheet" href="../../../styles/cartelera.css">
+    <link rel="stylesheet" href="../../../styles/films.css">
     <title>Cine Premium</title>
 </head>
 
 <body>
 
     <!-- Contenedor Principal-->
-    <div id="container_small">
+    <div id="container">
 
         <!-- Header -->
         <header>
@@ -35,10 +35,10 @@
                         <span><a href="../../cartelera/index.html">Cartelera</a></span>
                         <ul class="hidden">
                             <li>
-                                <a href="../cartelera/index.html">Toda la programación</a>
+                                <a href="../../cartelera/index.html">Toda la programación</a>
                             </li>
                             <li>
-                                <a href="./index.html">Próximamente</a>
+                                <a href="../../cartelera/proximamente/index.html">Próximamente</a>
                             </li>
                         </ul>
 
@@ -59,17 +59,17 @@
                         <ul id="p-3" class="hidden">
                             <li>
                                 <span>
-                                    <a href="../../eventos/cine_food.html">Cine + Food</a>
+                                    <a href="../cine_food.html">Cine + Food</a>
                                 </span>
                             </li>
                             <li>
                                 <span>
-                                    <a href="../../eventos/empresa.html">Empresas</a>
+                                    <a href="../empresa.html">Empresas</a>
                                 </span>
                             </li>
                             <li>
                                 <span>
-                                  <a href="../../eventos/actuaciones.html">Actuaciones</a>
+                                    <a href="../actuaciones.html">Actuaciones</a>
                                 </span>
                             </li>
                         </ul>
@@ -86,66 +86,86 @@
 
         <!-- Contenido Principal -->
         <main>
-            <div id="cartelera">
-                <a href="../../films/uncharted.html">
-                    <div class="film-card">
-                        <span class="film-span film-title-padding">Uncharted</span>
-                        <img src="../../../assets/static/films/uncharted.jpg" alt="Uncharted">
-                        <div class="stars">
-                            <i class='bx bxs-star star colored'></i>
-                            <i class='bx bxs-star star colored'></i>
-                            <i class='bx bxs-star star colored'></i>
-                            <i class='bx bxs-star star colored'></i>
-                            <i class='bx bxs-star star'></i>
-                            <span>(249 votos)</span>
-                        </div>
-                    </div>
-                </a>
+            <div id="film_container">
 
-                <a href="../../films/batman.html">
-                    <div class="film-card">
-                        <span class="film-span film-title-padding">The Batman</span>
-                        <img src="../../../assets/static/films/batman.jpg" alt="The Batman">
-                        <div class="stars">
-                            <i class='bx bxs-star star colored'></i>
-                            <i class='bx bxs-star star colored'></i>
-                            <i class='bx bxs-star star colored'></i>
-                            <i class='bx bxs-star star colored'></i>
-                            <i class='bx bxs-star star colored'></i>
-                            <span>(79 votos)</span>
-                        </div>
-                    </div>
-                </a>
+                <!-- Navbar entre Películas -->
+                <div id="navbar" class="films_colors bg-films">
+                    <a id="previous-film" href="./rigoletto.html">
+                        <i class='bx bx-chevron-left'></i>
+                        <span>Rigoletto (Live)</span>
+                    </a>
+                    <h3 class="bg-films">Le Parc</h3>
+                    <a id="next-film" href="./cendrillon.html">
+                        <span>Cendrillon (Live)</span>
+                        <i class='bx bx-chevron-right'></i>
+                    </a>
+                </div>
 
-                <a href="../../films/morbius.html">
-                    <div class="film-card">
-                        <span class="film-span film-title-padding">Morbius</span>
-                        <img src="../../../assets/static/films/morbius.jpg" alt="Morbius">
-                        <div class="stars">
-                            <i class='bx bxs-star star colored'></i>
-                            <i class='bx bxs-star star colored'></i>
-                            <i class='bx bxs-star star colored'></i>
-                            <i class='bx bxs-star star colored'></i>
-                            <i class='bx bxs-star star colored'></i>
-                            <span>(342 votos)</span>
-                        </div>
-                    </div>
-                </a>
+                <!-- Contenedor con la Imagen y Tráiler de la Película -->
+                <div id="media" class="films_colors bg-films">
+                    <img src="../../../assets/static/eventos/act3.jpg" alt="Elektra">
+                    <img class="event-poster" src="../../../assets/static/eventos/act3-d.jpg" alt="">
+                </div>
 
-                <a href="../../films/sonic2.html">
-                    <div class="film-card">
-                        <span class="film-title-padding">Sonic 2</span>
-                        <img src="../../../assets/static/films/sonic2.jpg" alt="Sonic 2">
-                        <div class="stars">
-                            <i class='bx bxs-star star colored'></i>
-                            <i class='bx bxs-star star colored'></i>
-                            <i class='bx bxs-star star colored'></i>
-                            <i class='bx bxs-star star'></i>
-                            <i class='bx bxs-star star'></i>
-                            <span>(456 votos)</span>
-                        </div>
-                    </div>
-                </a>
+                <!-- Contenedor de los detalles de las Películas -->
+                <div id="film_caracters" class="films_colors bg-films">
+                    <ul class="bg-films">
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Duración:</span>
+                            <span class="film_caracters-text bg-films">102 min</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Género:</span>
+                            <span class="film_caracters-text bg-films">Ballet</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Estreno:</span>
+                            <span class="film_caracters-text bg-films">24/03/2022</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Música:</span>
+                            <span class="film_caracters-text bg-films">Giuseppe Verdi</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Dirección:</span>
+                            <span class="film_caracters-text bg-films">W.a. Mozart</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Productores:</span>
+                            <span class="film_caracters-text bg-films">Rising Alternative, A Contrac</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Equipo Creativo:</span>
+                            <span class="film_caracters-text bg-films">Diseño de sonido - Goran Vejvoda, Director
+                                musical - Benjamin Shwartz, Director de escena - Thierry Leproust, Vestuario - Hervé
+                                Pierre, Iluminación - Jacques Chatelet</span>
+                        </li>
+
+                        <li class="bg-films">
+                            <span class="film_caracters-title bg-films">Equipo Artistico:</span>
+                            <span class="film_caracters-text bg-films"> Alice Renavant, Mathieu Ganio y Cuerpo de Ballet
+                                de la Ópera de París.
+                                Orquesta de cámara de París
+                            </span>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- Contenedor de la Sinopsis -->
+                <div id="sinopsis" class="films_colors bg-films">
+                    <p class="bg-films">Sinopsis: Ballet con coreografía de Angelin Preljocaj
+                        Presentado por Aurélie Dupont, directora artística de la danza de la Ópera Nacional de París
+                        Grabado en marzo 2021 en el Palais Garnier
+                    </p>
+                </div>
 
             </div>
         </main>
@@ -178,11 +198,11 @@
             </div>
 
             <div id="finance" class="general_colors">
-                <img class="general_colors" src="../../../assets/static/footer/eurocine.png" alt="eurocine">
+                <img class="general_colors" src="../../assets/static/footer/eurocine.png" alt="eurocine">
 
                 <div class="general_colors">
                     <span class="general_colors">Con la financiación de</span>
-                    <img class="general_colors" src="../../../assets/static/footer/logo-icaa-negro.png" alt="icaa">
+                    <img class="general_colors" src="../../assets/static/footer/logo-icaa-negro.png" alt="icaa">
                 </div>
             </div>
 
