@@ -12,16 +12,82 @@
 }
   
 /*---------------------------*/
+/*Estilos del Contenedor Principal*/
 main {
     padding-bottom: 8rem;
 }
 /*----------------------------------------*/
+/*Estilos del Slider*/
 .slider{
     width: 100%;
     margin: auto;
     overflow: hidden;
 }
 
+/*Estilos de cada Slide*/
+.slide {
+    position: relative;
+    z-index: 0;
+    background: none;
+}
+
+/*Con el pseudo-elemento before le damos una capa de oscuridad a el slide*/
+.slide::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/*Estilos del Texto superpuesto del Slide*/
+.em-text {
+    position: absolute;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    bottom: 30%;
+    left: 32%;
+    z-index: 3;
+    background: none;
+}
+
+.em-text div {
+    background: none;
+}
+
+.em-text h2 {
+    background: none;
+    color: #fff;
+    font-size: 2.8125rem;
+}
+
+/*Estilos del Botón de Contacto de cada Slide*/
+.btn-transparent {
+    width: 44%;
+    align-self: center;
+    border: 1px solid #fff;
+    background: none;
+    line-height: 50px;
+    border-radius: 0.5rem;
+}
+
+.btn-transparent:hover {
+    cursor: pointer;
+    background: #0076ec;
+    border: none;
+}
+
+.btn-transparent a {
+    background: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+/*Contenedor donde definimos las animaciones*/
 .slider ul {
     display: flex;
     padding: 0;
@@ -42,6 +108,7 @@ main {
     object-fit: cover;
 }
 
+/*Keyframes que permiten cambiar de Slide*/
 @keyframes change{
     0% {margin-left: 0;}
     20% {margin-left: 0;}
@@ -56,9 +123,8 @@ main {
     100%{margin-left: -300%;}
 }
 
-/*------------------------------*/
+/*-------------------------------------------------*/
 /* Estilos del Contenedor de Ofertas para Empresas*/
-
 #offers {
     display: flex;
     justify-content: space-around;
@@ -67,6 +133,7 @@ main {
     padding-right: 3rem;
 }
 
+/*Estilos del Contenedor de cada oferta*/
 .offer{
     display: flex; 
     flex-direction: column; 
@@ -87,7 +154,7 @@ main {
     object-fit: cover;
 }
 
-
+/*Estilos del Contendor de los Textos de las Ofertas*/
 .offer-text {
     display: flex;
     flex-direction: column;
@@ -110,6 +177,7 @@ main {
     margin-top: 4.95rem;
 }
 
+/*Estilos del Botón de las Ofertas*/
 .button-offer {
     width: 70%;
     align-self: center;
