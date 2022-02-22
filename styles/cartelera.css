@@ -43,7 +43,14 @@ main {
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
+}
+
+.cartelera_general {
     justify-content: center;
+}
+
+.cartelera_harry {
+    justify-content: left;
 }
 
 .film-card {
