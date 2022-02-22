@@ -92,6 +92,10 @@ iframe, .event-poster {
     height: 280px;
 }
 
+iframe {
+    border: none;
+}
+
 /*-------------------------*/
 
 /* Estilos de la zona de Caracteristícas de la Película*/
