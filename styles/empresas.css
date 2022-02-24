@@ -73,12 +73,15 @@ main {
     background: none;
     line-height: 50px;
     border-radius: 0.5rem;
+    color: #fff;
+    text-align: center;
 }
 
 .btn-transparent:hover {
     cursor: pointer;
     background: #0076ec;
     border: none;
+    color: #000;
 }
 
 .btn-transparent a {
@@ -136,21 +139,22 @@ main {
 /*Estilos del Contenedor de cada oferta*/
 .offer{
     display: flex; 
+    width: 23.55rem;
+    height: 33.68rem;
     flex-direction: column; 
     align-items: center;
     background: #fff;
+    position: relative;
 }
 
-.offer a{
-    width: 23.55rem;
-    height: 19.43rem;
+.a-width{ 
+    width: 100%;
     background: #000;
-    color: #fff;
 }
 
 .offer a img {
     width: 100%;
-    height: 100%;
+    height: 16.8rem;
     object-fit: cover;
 }
 
@@ -160,7 +164,6 @@ main {
     flex-direction: column;
     width: 65%;
     text-align: center;
-    padding-bottom: 1.5rem;
     background: #fff;
 }
 
@@ -179,9 +182,12 @@ main {
 
 /*Estilos del Botón de las Ofertas*/
 .button-offer {
+    position: absolute;
     width: 70%;
     align-self: center;
     padding: 0.5rem 0 0.5rem 0;
     border-radius: 0.4rem;
     background: #000;
+    color: #fff;
+    bottom: 2rem;
 }
